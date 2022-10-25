@@ -5,9 +5,13 @@
   50% {background-color: yellow;}
   100% {background-color: green;} 
 }
+@keyframes titulosite{
+  from {color: #d3deda;}
+  to {color: orange;}
+}
 @keyframes titulos{
   from {color: white;}
-  to {color: rgb(185, 185, 185);}
+  to {color: rgb(143, 143, 143);}
 }
 @keyframes criador{
   from {color: rgb(187, 187, 187);}
@@ -55,8 +59,8 @@ body {
   a {text-decoration: none;}
   
   .container {
-    margin: auto;
-    width: 1000px;
+    margin-left: 150px;
+    width: 1200px;
   }
   
   ul {
@@ -72,7 +76,6 @@ body {
     position: relative;
       
   }
-  
   nav > ul > li {
     display: inline-block;
       font-size: 14px;
@@ -130,6 +133,18 @@ body {
   .dropdown:hover .mega-menu {
       visibility: visible;
       opacity: 1;
+      z-index: 2;
   }
 
 /* fim da estilização do menu*/
+
+/* Body 1 */
+  .body1 {
+    width: 100%;
+    height: 25%;
+    padding: 0;
+    background-color:rgb(49, 49, 49);
+    position: absolute;
+    border-bottom: 5px solid #111111;
+    border-top: 5px solid #fff;
+  }
