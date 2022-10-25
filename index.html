@@ -18,27 +18,61 @@
             <!--[if lte IE 8]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
                 <![endif]-->
-            <!-- Script -->
-            <link rel="script" href="JavaScript/script.js"></link>
+            <!-- Script 
+            <link rel="script" href="JavaScript/script.js"></link>-->
     </head>
     <body>
-        <nav>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Curiosidades</a></li>
-                <li><a href="#">Jogos</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">OBMEP</a></li>
-                <li><a href="#">Sobre</a>
-                    <ul>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Orientador</a></li>
-                        <li><a href="#">Pesquisa e Redação</a></li>
-                    </ul>
-                </li>
-
-            </ul>
-        </nav>
+        <nav>  <!-- implemetação do menu -->
+            <ul class="container">
+                <li><a href='#'>Home</a></li>
+                <li class='dropdown'>
+                  <a href='#'>Recursos<i class="fa fa-angle-down"></i></a>
+                  <div class='mega-menu'>
+                    <div class="container">
+                      <div class="item">
+                          <h3>Games</h3>
+                          <ul>
+                            <li><a href='#'>Infantil</a></li>
+                            <li><a href='#'>Fundamental</a></li>
+                            <li><a href='#'>Ensino Médio</a></li>
+                            
+            
+                          </ul>
+                      </div> <!-- /.item -->
+                      <div class="item">
+                          <h3>Vídeos</h3>
+                          <ul>
+                            <li><a href='#'>Video aulas</a></li>
+                            <li><a href='#'>Filmes</a></li>
+                            
+                          </ul>
+                      </div> <!-- /.item -->
+                      <div class="item">
+                          <h3>Khan Academy</h3>
+                          <ul>
+                            <li><a href='#'>Cursos</a></li>
+                            <li><a href='#'>Exercicios</a></li>
+                            
+                          </ul>
+                      </div> <!-- /.item --> 
+                      <div class="item">
+                         <h3>Banco de Provas</h3>
+                         <ul>
+                            <li><a href='#'>1º ano</a></li>
+                            <li><a href='#'>2º ano</a></li>
+                            <li><a href="#">3º ano</a></li>
+                            
+                          </ul>
+                         
+                      </div> <!-- /.item -->
+                    </div><!-- /.container -->
+                  </div><!-- /.mega-menu -->
+                </li><!-- /.dropdown -->
+                <li><a href='#'>Curiosidades</a></li>
+                <li><a href='#'>OBMEP</a></li>
+                <li><a href='#'>Quem Somos</a></li>
+              </ul><!-- .container -->
+        </nav><!-- fim da implementação do menu-->
 
         <div class="header">
             <div class="header" class="titulos">

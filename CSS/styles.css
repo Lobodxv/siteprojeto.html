@@ -7,55 +7,98 @@
     75% {border-color: rgb(253, 181, 47);}
     100% {border-color: rgb(255, 166, 0);}
 } */
+/*  Inicio da estilização do menu*/
 
-                                           /*  Inicio da estilização do menu*/
-*{margin: 0; padding: 0;}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
-
-.menu{
+body {
+    margin: 0;
+    padding: 0;
+      font-family: sans-serif;
+  }
+  
+  a {text-decoration: none;}
+  
+  .container {
+    margin: auto;
+    width: 1000px;
+  }
+  
+  ul {
+    padding-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
     list-style: none;
-    border: 1px solid #c0c0c0;
-    float: left;
-}
-
-.menu li{
+  }
+  
+  nav {
+    background: #0ca0d6;
+    font-size: 0;
     position: relative;
-    float: left;
-    border-right: 1px solid #c0c0c0;
-}
-
-.menu li a {color: #333; text-decoration: none; padding: 5px 10px; display: block;}
-
-.menu li a:hover{
-    background: #333;
+      
+  }
+  
+  nav > ul > li {
+    display: inline-block;
+      font-size: 14px;
+      padding: 0 15px;
+      position: relative;
+  }
+  
+  nav > ul > li > a {
     color: #fff;
-    -moz-box-shadow: 0 3px 10px 0 #CCC;
-    -webkit-box-shadow: 0 3px 10px 0 #ccc;
-    text-shadow: 0px 0px 5px #fff;
-}
+      display: block;
+      padding: 20px 0;
+      border-bottom: 3px solid transparent;
+      transition: all .3s ease;
+  }
+  nav > ul > li:hover > a {
+    color: #444; 
+      border-bottom: 3px solid #444;
+  }
+  
+  .mega-menu {
+    background: #eee;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s linear;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      padding-bottom: 20px;
+  }
+  .mega-menu h3 {color: #444;}
+  
+  .mega-menu .container {
+      display: flex;
+  }
+  .mega-menu .item {
+    flex-grow: 1;
+      margin: 0 10px;
+  }
+  .mega-menu .item img {
+      width: 100%;
+  }
+  .mega-menu a {
+    border-bottom: 1px solid #ddd;
+      color: #4ea3d8;
+      display: block;
+      padding: 10px 0;
+  }
+  .mega-menu a:hover {color: #2d6a91;}
+  
+  
+  .dropdown {position: static;}
+  
+  .dropdown:hover .mega-menu {
+      visibility: visible;
+      opacity: 1;
+  }
+  
 
-.menu li ul{
-    position: absolute;
-    top: 25px;
-    left: 0;
-    background-color: #fff;
-    display: none;
-}
 
-.menu li:hover ul, .menu li.over ul{display: block;}
 
-.menu li ul li {
-    border: 1px solid #c0c0c0;
-    display: block;
-    width: 150px;
+  
 
-}
-
-                                                     /* fim da estilização do menu*/
+/* fim da estilização do menu*/
 @keyframes animacaobt{
     0% {background-color: orange;}
     25% {background-color: rgb(95, 129, 2);}
@@ -103,11 +146,7 @@ body{
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    background-color: #303030;
-}
+
 /* Header */
 /* Window buttom and buttom css */
             * {
