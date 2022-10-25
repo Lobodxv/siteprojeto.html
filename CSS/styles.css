@@ -5,7 +5,7 @@
   50% {background-color: yellow;}
   100% {background-color: green;} 
 }
-@keyframes animacaosimples{
+@keyframes titulos{
   from {color: white;}
   to {color: rgb(185, 185, 185);}
 }
@@ -67,7 +67,7 @@ body {
   }
   
   nav {
-    background: #0ca0d6;
+    background: #010001;
     font-size: 0;
     position: relative;
       
@@ -86,14 +86,14 @@ body {
       padding: 20px 0;
       border-bottom: 3px solid transparent;
       transition: all .3s ease;
-  }
+  } 
   nav > ul > li:hover > a {
-    color: #444; 
-      border-bottom: 3px solid #444;
+    color: #80cc26; 
+      border-bottom: 3px solid #80cc26;
   }
   
   .mega-menu {
-    background: #eee;
+    background: #333;
       visibility: hidden;
       opacity: 0;
       transition: visibility 0s, opacity 0.5s linear;
@@ -102,7 +102,7 @@ body {
       width: 100%;
       padding-bottom: 20px;
   }
-  .mega-menu h3 {color: #444;}
+  .mega-menu h3 {color: #e3deda}
   
   .mega-menu .container {
       display: flex;
@@ -115,7 +115,7 @@ body {
       width: 100%;
   }
   .mega-menu a {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(78, 78, 78);
       color: #4ea3d8;
       display: block;
       padding: 10px 0;
@@ -123,16 +123,13 @@ body {
   .mega-menu a:hover {color: #2d6a91;}
   
   
-  .dropdown {position: static;}
+  .dropdown {
+    position: static;
+  }
   
   .dropdown:hover .mega-menu {
       visibility: visible;
       opacity: 1;
   }
-  
-
-
-
-  
 
 /* fim da estilização do menu*/
