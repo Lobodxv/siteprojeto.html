@@ -51,6 +51,7 @@
 /*  Inicio da estilização do menu*/
 
 body {
+    padding-top: 80px !important;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -60,7 +61,7 @@ body {
   
   .container {
     margin-left: 15px;
-    width: 1200px;
+    width: 1300px;; 
   }
   
   ul {
@@ -68,13 +69,18 @@ body {
       margin-top: 0;
       margin-bottom: 0;
     list-style: none;
+    
+    
+
   }
   
   nav {
     background: #010001;
     font-size: 0;
-    position:relative;
-      
+    width:fit-content;
+    
+    top: 0;  
+    position: fixed;
   }
   nav > ul > li {
     display: inline-block;
@@ -144,15 +150,15 @@ body {
     height: 81.5%;
     padding: 0;
     background-color:rgb(17, 17, 17);
-    background-image: url(/img/bodybg.jpg);
-    position:relative;
+    /*background-image: url(/img/bodybg.jpg);*/
+   
     border-top: 5px solid #fff; 
     border-bottom: 6px solid #ff5e00;
   }
   .lightDiv{
     margin-left: 150px;
     margin-top: 50px;
-    padding: 8px;
+    padding: 3px;
     width: 200px;
     height: 300px;
     background-color: rgb(12, 12, 12);
@@ -169,7 +175,7 @@ body {
   margin-top: 25%;}
 
   .imgLightDiv {
-    width: 200px;
+    width: 120px;
     height: 150px;
     background-color: black;
     border: none;
@@ -178,7 +184,7 @@ body {
   .body1 .fa-angle-down{
     opacity: 10;
     font-size: 30px;
-    margin-top: 450px;
+    margin-top: 520px;
     margin-left: 130px;
     position: absolute;
     color: white;
@@ -190,7 +196,7 @@ body {
   }
   .body2{
     width: 100%;
-    height: 97.4%;
+    height: 20.4%;
     margin-top: 39%;
     padding: 0;
     background-color: rgb(49, 49, 49);
