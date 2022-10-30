@@ -53,13 +53,13 @@
 body {
     margin: 0;
     padding: 0;
-      font-family: sans-serif;
+    font-family: sans-serif;
   }
   
   a {text-decoration: none;}
   
   .container {
-    margin-left: 150px;
+    margin-left: 15px;
     width: 1200px;
   }
   
@@ -73,7 +73,7 @@ body {
   nav {
     background: #010001;
     font-size: 0;
-    position: relative;
+    position:relative;
       
   }
   nav > ul > li {
@@ -144,7 +144,8 @@ body {
     height: 81.5%;
     padding: 0;
     background-color:rgb(17, 17, 17);
-    position: absolute;
+    background-image: url(/img/bodybg.jpg);
+    position:relative;
     border-top: 5px solid #fff; 
     border-bottom: 6px solid #ff5e00;
   }
