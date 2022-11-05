@@ -61,44 +61,43 @@ body {
   
   .container {
     margin-left: 15px;
-    width: 1300px;; 
+    width: 1350px; 
   }
   
   ul {
     padding-left: 0;
-      margin-top: 0;
-      margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     list-style: none;
     
     
 
   }
   
-  .menu {
+  nav {
     background: #010001;
     border-bottom: 2px #fff solid;
     z-index: 3;
     font-size: 0;
-    width:fit-content;
-    
+    width:auto;
     top: 0;  
     position: fixed;
   }
-  .menu > ul > li {
+  nav > ul > li {
     display: inline-block;
-      font-size: 14px;
-      padding: 0 15px;
-      position: relative;
+    font-size: 14px;
+    padding: 0 15px;
+    position: relative;
   }
   
-  .menu > ul > li > a {
+  nav > ul > li > a {
     color: #fff;
       display: block;
       padding: 20px 0;
       border-bottom: 3px solid transparent;
       transition: all .3s ease;
   } 
-  .menu > ul > li:hover > a {
+  nav > ul > li:hover > a {
     color: #80cc26; 
       border-bottom: 3px solid #80cc26;
   }
@@ -252,21 +251,73 @@ body {
       animation-iteration-count: infinite;
   }
 
-  .rodape{
-        
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 300px;
-  padding-top: -40px;
-  padding-bottom: 1em;
-    background-color:rgb(12, 12, 12);
-    color: white;
-    z-index: 3;
-    margin-top: 500px;
-    border-top: 5px solid rgb(48, 168, 1);
-    font-size:smaller;
-    
-  }
+
+ /* Footer - inicio*/ 
+ .site-footer
+{
+  
+  border-top: 5px solid rgb(48, 168, 1);
+  font-size:smaller;
+  margin-top: 200px;
+  background-color:rgb(12, 12, 12);
+  padding:45px 0 20px;
+  font-size:15px;
+  color:#06ee6f;
+  width:100%;
+}
+.container-footer{
+  width: 100%;
+}
+.site-footer hr
+{
+  border-top-color:rgb(187, 187, 187);
+  opacity:0.5
+  
+}
+.site-footer hr.small
+{
+  margin:30px 0
+  
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:2px;
+  letter-spacing:1px
+  
+}
+
+
+
+.copyright-text
+{
+  margin:0
+}
+
+#escola{
+  text-align: center;
+ 
+}
+
+#direitos{
+  text-align: center;
+  font-size: smaller;
+}
+
+#dev{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: smaller;
+  text-align: center;
+}
+.copyright-text{
+  text-align: center;
+}
+/* Footer-fim*/
+
+
+
+
 
 
