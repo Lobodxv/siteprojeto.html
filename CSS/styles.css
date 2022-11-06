@@ -261,10 +261,10 @@ body {
   border-top: 5px solid rgb(48, 168, 1);
   font-size:smaller;
   margin-top: 200px;
-  background-color:rgb(12, 12, 12);
+  background-color: rgb(12, 12, 12);
   padding:45px 0 20px;
   font-size:15px;
-  color:#06ee6f;
+  color:#c2c2c2;
   width:100%;
 }
 .container-footer{
@@ -272,7 +272,6 @@ body {
 }
 .site-footer hr
 {
-  border-top-color:rgb(187, 187, 187);
   opacity:0.5
   
 }
@@ -295,12 +294,8 @@ body {
 
 .copyright-text
 {
-  margin:0
-}
-
-#escola{
-  text-align: center;
- 
+  color:rgb(65, 65, 65);
+  margin:0;
 }
 
 #direitos{
