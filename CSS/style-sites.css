@@ -160,15 +160,15 @@ body {
     height: 10px;
     padding-top: 30px;
     font-size: 25px;
-    width: 350px;
+    width: 450px;
     margin-left: 34%;
   }
   .lightDiv{
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 50px;
     padding: 3px;
-    width: 200px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     background-color: rgb(12, 12, 12);
     color: rgb(228, 228, 228);
     text-decoration: none;
@@ -180,11 +180,11 @@ body {
   .lightDiv a{text-decoration: none; color: rgb(228, 228, 228);}
   .lightDiv i{color: #ff5e00;
   margin: auto;
-  margin-top: 25%;}
+  margin-top: 5%;}
 
   .imgLightDiv {
-    width: 200px;
-    height: 150px;
+    width: 600px;
+    height: 300px;
     background-color: black;
     border: none;
     margin-bottom: 0%;
