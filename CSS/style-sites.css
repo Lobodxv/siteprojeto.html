@@ -213,8 +213,8 @@ body {
     display: inline-block;
     color: rgba(0, 0, 0, 0.527);
     font-size: 20px;
-    height: 20px;
-    width: 250px;
+    height: 350px;
+    width: 100%;
     text-align: center;
     padding: 0;
     margin: 0;

@@ -240,9 +240,9 @@ body {
   .citacaoDia{
     width: 350px;
     height: 300px;
-    padding: 40px;
+    padding: 30px;
     color: rgb(20, 20, 20);
-    display: inline-block;
+    display:inline-block;
     text-align: center;
     margin-right: auto;
     border-width: 5px;
