@@ -150,7 +150,7 @@ body {
 /* Body 1 - inicio*/
   .body1{
     width: 100%;
-    height: 100%;
+    height: 300%;
     padding-bottom: 90px;
     background: linear-gradient(345deg, rgb(17, 5, 0), rgb(10, 10, 10), rgb(0, 0, 0));
     border-bottom: 6px solid #ff5e00;
@@ -343,6 +343,11 @@ body {
   width: 240px;
   height: 150px;
   
+}
+
+#img-curiosidade{
+  width: 400px;
+  height: 300px;
 }
 
 
