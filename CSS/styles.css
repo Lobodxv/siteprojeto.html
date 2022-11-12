@@ -27,25 +27,25 @@
   100% {color: red;}
 }
 @keyframes border {
-  25% {border-top-color: #010001;
+  25% {border-top-color: #555555;
       border-right-color: rgb(26, 87, 2);
-      border-bottom-color: #010001;
+      border-bottom-color: #555555;
       border-left-color: #ff5e00;
   }
-  50% {border-top-color: #ff5e00;
-      border-right-color: #010001;
+  50% {border-top-color: #555555;
+      border-right-color: #ff5e00;
       border-bottom-color:rgb(26, 87, 2);
-      border-left-color: #010001;
+      border-left-color: #555555;;
   }
-  75% {border-top-color:#010001;
+  75% {border-top-color:  #555555;
       border-right-color:  #ff5e00;
-      border-bottom-color: #010001;
+      border-bottom-color: #555555;
       border-left-color: rgb(26, 87, 2);
   }
   100% {border-bottom-color: #ff5e00;
       border-top-color: rgb(26, 87, 2);
-      border-left-color: #010001;
-      border-right-color: #010001;
+      border-left-color: #555555;;
+      border-right-color: #555555;;
   }
 }
 /*  Inicio da estilização do menu*/
@@ -161,7 +161,12 @@ body {
     padding-top: 30px;
     font-size: 25px;
     width: 350px;
-    margin-left: 35%;
+    margin-left: 520px;
+  }
+  .body1 .linhaTitle{
+    color: rgb(97, 97, 97);
+    opacity: 0.3;
+    background-color: #333;
   }
   .lightDiv{
     margin-left: 120px;
@@ -176,6 +181,11 @@ body {
     border-radius: 5px;
     display: inline-block;
     text-align: center;
+    animation-name: border;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 1s;
   }
   .lightDiv hr{
     color:rgb(179, 179, 179);
@@ -209,6 +219,9 @@ body {
     z-index: 2; 
   }
 
+   /* Body 1 - Fim */
+
+   
   .msgs{
     width: 100%;
     height: 350px;
@@ -258,7 +271,6 @@ body {
       animation-direction:alternate-reverse;
       animation-iteration-count: infinite;
   }
- /* Body 1 - Fim */
 
 
 
@@ -349,8 +361,3 @@ body {
   width: 400px;
   height: 300px;
 }
-
-
-
-
-
