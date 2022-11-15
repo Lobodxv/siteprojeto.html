@@ -354,7 +354,18 @@ body {
 .img-games{
   width: 240px;
   height: 150px;
+  transition: all .8s;
+
   
+}
+
+.img-games:hover{
+  border: 10px solid #0de322a1;
+  border-radius: 20%;
+  -webkit-filter:drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+  filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+  -webkit-transform: rotateZ(-260deg) scale(1.5);
+  transform: rotateZ(-360deg) scale(1.0);
 }
 
 #img-curiosidade{
