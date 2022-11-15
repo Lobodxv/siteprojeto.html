@@ -372,3 +372,24 @@ body {
   width: 400px;
   height: 300px;
 }
+
+@media screen and (min-width: 768px){
+  /* nav */
+  nav {
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  nav ul{
+    flex-direction: row;
+    width: 70%;
+
+  }
+  /* cabeçalho */
+  header{
+    height: 600px;
+    height:60vh;
+    justify-content: center;
+    
+  }
+
+}
