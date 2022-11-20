@@ -276,9 +276,9 @@ body {
   
   border-top: 5px solid rgb(148, 148, 148);
   font-size:smaller;
-  margin-top: 20px;
+  margin-top: 130px;
   background: linear-gradient(60deg, rgb(20, 20, 20), rgb(10, 10, 10), rgb(0, 0, 0));
-  padding:45px 0 20px;
+  padding:15px 0 8px;
   font-size:15px;
   color:#c2c2c2;
   width:100%;
@@ -304,7 +304,7 @@ body {
   font-size:16px;
   text-transform:uppercase;
   margin-top:2px;
-  letter-spacing:1px
+  letter: spacing 0.5em;
   
 }
 .link-redes{
@@ -370,6 +370,9 @@ body {
   height: 300px;
 }
 
+
+/* ajuste da tela para tablet */
+
 @media screen and (max-width: 768px){
   /* nav */
   nav {
@@ -389,6 +392,10 @@ body {
     
   }
 
+  .body1{
+    width: 100px;
+  }
+
   .citacaoDia{
     width: 100%;
   }
@@ -399,6 +406,55 @@ body {
   footer{
     width: 100%;
     padding: 0%;
+  }
+
+  .img-games{
+    width: auto;
+  }
+
+
+
+}
+
+
+/* Ajuste da tela para Celular */
+@media screen and (max-width: 600px){
+  /* nav */
+  nav {
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  nav ul{
+    flex-direction: row;
+    width: 70%;
+
+  }
+  /* cabeçalho */
+  header{
+    height: 600px;
+    height:60vh;
+    justify-content: center;
+    
+  }
+
+  .body1{
+    width: 100px;
+  }
+
+  .citacaoDia{
+    width: 100%;
+  }
+  .desafioDia{
+    width: 100%;
+  }
+
+  footer{
+    width: 100%;
+    padding: 0%;
+  }
+
+  .img-games{
+    width: auto;
   }
 
 
