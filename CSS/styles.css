@@ -27,31 +27,31 @@
   100% {color: red;}
 }
 @keyframes border {
-  25% {border-top-color: #555555;
+  25% {border-top-color: #010001;
       border-right-color: rgb(26, 87, 2);
-      border-bottom-color: #555555;
+      border-bottom-color: #010001;
       border-left-color: #ff5e00;
   }
-  50% {border-top-color: #555555;
-      border-right-color: #ff5e00;
+  50% {border-top-color: #ff5e00;
+      border-right-color: #010001;
       border-bottom-color:rgb(26, 87, 2);
-      border-left-color: #555555;;
+      border-left-color: #010001;
   }
-  75% {border-top-color:  #555555;
+  75% {border-top-color:#010001;
       border-right-color:  #ff5e00;
-      border-bottom-color: #555555;
+      border-bottom-color: #010001;
       border-left-color: rgb(26, 87, 2);
   }
   100% {border-bottom-color: #ff5e00;
       border-top-color: rgb(26, 87, 2);
-      border-left-color: #555555;;
-      border-right-color: #555555;;
+      border-left-color: #010001;
+      border-right-color: #010001;
   }
 }
 /*  Inicio da estilização do menu*/
 
 body {
-    padding-top: 90px !important;
+    padding-top: 0px !important;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -157,16 +157,11 @@ body {
   }
   .body1 h1{
     color: white;
-    height: 10px;
-    padding-top: 30px;
+    height: 40px;
+    padding-top:130px;
     font-size: 25px;
-    width: 350px;
-    margin-left: 520px;
-  }
-  .body1 .linhaTitle{
-    color: rgb(97, 97, 97);
-    opacity: 0.3;
-    background-color: #333;
+    width: 290px;
+    margin-left: 35%;
   }
   .lightDiv{
     margin-left: 120px;
@@ -181,7 +176,6 @@ body {
     border-radius: 5px;
     display: inline-block;
     text-align: center;
-    box-shadow: 0 0 100px 0 #ff5e00 inset 0 0 50px 4px #ff5e00;
   }
   .lightDiv hr{
     color:rgb(179, 179, 179);
@@ -215,9 +209,6 @@ body {
     z-index: 2; 
   }
 
-   /* Body 1 - Fim */
-
-   
   .msgs{
     width: 100%;
     height: 350px;
@@ -267,6 +258,7 @@ body {
       animation-direction:alternate-reverse;
       animation-iteration-count: infinite;
   }
+ /* Body 1 - Fim */
 
 
 
@@ -276,14 +268,13 @@ body {
   
   border-top: 5px solid rgb(148, 148, 148);
   font-size:smaller;
-  margin-top: 130px;
+  margin-top: 200px;
   background: linear-gradient(60deg, rgb(20, 20, 20), rgb(10, 10, 10), rgb(0, 0, 0));
-  padding:15px 0 8px;
+  padding:45px 0 20px;
   font-size:15px;
   color:#c2c2c2;
   width:100%;
   text-align: center;
-
 }
 .container-footer{
   width: 100%;
@@ -304,7 +295,7 @@ body {
   font-size:16px;
   text-transform:uppercase;
   margin-top:2px;
-  letter: spacing 0.5em;
+  letter-spacing:1px
   
 }
 .link-redes{
@@ -351,18 +342,7 @@ body {
 .img-games{
   width: 240px;
   height: 150px;
-  transition: all .8s;
-
   
-}
-
-.img-games:hover{
-  border: 10px solid #0de322a1;
-  border-radius: 20%;
-  -webkit-filter:drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
-  filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
-  -webkit-transform: rotateZ(-260deg) scale(1.5);
-  transform: rotateZ(-360deg) scale(1.0);
 }
 
 #img-curiosidade{
@@ -370,93 +350,67 @@ body {
   height: 300px;
 }
 
+@media screen and (max-width: 600px) {
 
-/* ajuste da tela para tablet */
-
-@media screen and (max-width: 768px){
-  /* nav */
-  nav {
-    flex-direction: row;
-    justify-content:space-around;
+  body{
+  width: 100%;
+  
   }
-  nav ul{
-    flex-direction: row;
-    width: 70%;
-
+  .menu{
+    position:relative;
+    width: 100%;
   }
-  /* cabeçalho */
-  header{
-    height: 600px;
-    height:60vh;
-    justify-content: center;
+
+
+  .menu ul li {
+    padding: 0px;
+    margin: 2px;
+  }
+  .container{
+    width: auto;
+    display: block;
+  }
+  .body1{
+    
+    margin-right: 1px;
+  }
+
+  .body1 h1{
+    color: white;
+    height: 10px;
+    padding-top: 30px;
+    font-size: 25px;
+    width: 350px;
+    margin-left: 15%;
+  }
+
+  .lightDiv{
+    margin-left: 46px;
+    margin-right: 10px;
     
   }
 
-  .body1{
-    width: 100px;
-  }
-
-  .citacaoDia{
-    width: 100%;
-  }
   .desafioDia{
-    width: 100%;
+    width: 300px;
+    margin-left: 10px;
+    padding: 2px;
   }
 
-  footer{
-    width: 100%;
-    padding: 0%;
-  }
-
-  .img-games{
-    width: auto;
-  }
-
-
-
-}
-
-
-/* Ajuste da tela para Celular */
-@media screen and (max-width: 600px){
-  /* nav */
-  nav {
-    flex-direction: row;
-    justify-content:space-around;
-  }
-  nav ul{
-    flex-direction: row;
-    width: 70%;
-
-  }
-  /* cabeçalho */
-  header{
-    height: 600px;
-    height:60vh;
-    justify-content: center;
-    
-  }
-
-  .body1{
-    width: 100px;
-  }
-
+  
   .citacaoDia{
-    width: 100%;
+    width: 300px;
+    margin-left: 10px;
+    padding: 2px 2px 20px;
   }
-  .desafioDia{
-    width: 100%;
+  .msgs{
+    align-items: center;
+    display:inline-block;
+    padding: 0px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 15px 2px 10px;
   }
-
-  footer{
-    width: 100%;
-    padding: 0%;
+  .hM{
+    visibility: hidden;
   }
-
-  .img-games{
-    width: auto;
-  }
-
-
-
 }
