@@ -350,21 +350,39 @@ body {
   height: 300px;
 }
 
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
 @media screen and (max-width: 600px) {
 
   body{
+  
   width: 100%;
+  margin: 0%;
+  border: none;
   
   }
   #site{
     width:100%;
-    margin-right: 50px;
-    position:-ms-page;
-    margin-left: 80px;
+    margin-right: 60px;
+    margin-left: 70px;
   }
+  #home{
+    float:none;
+     position: relative;
+     margin-left: 30px;
+      
+  }
+  
   .menu{
     position:inherit;
     width: 100%;
+    float:inherit;
+    display:list-item;
+  
   }
 
 
@@ -373,8 +391,8 @@ body {
     margin: 3px;
   }
   .container{
-    width: auto;
-    display: block;
+    
+    display:list-item;
   }
   .body1{
     
@@ -424,7 +442,7 @@ body {
 
 /* resposividade para tablet*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
   body{
   width: 100%;
@@ -446,6 +464,7 @@ body {
     padding: 2px 3px;
     margin: 3px;
   }
+ 
   .container{
     width: auto;
     display: block;
@@ -471,17 +490,17 @@ body {
   }
 
   .desafioDia{
-    width: 300px;
-    margin-left: 10px;
-    padding: 2px;
+    width: auto;
+    padding-top: 2%;
+    
+    
   }
 
-  
   .citacaoDia{
-    width: 300px;
-    margin-left: 10px;
-    padding: 2px 2px 20px;
-  }
+    width: 90%;
+    padding-top: 2%;
+    }
+
   .msgs{
     align-items: center;
     display:inline-block;
