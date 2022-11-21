@@ -83,14 +83,14 @@ body {
   nav > ul > li {
     display: inline-block;
     font-size: 14px;
-    padding: 1px 15px;
+    padding: 1px 10px;
     position: relative;
   }
   
   nav > ul > li > a {
     color: #fff;
       display: block;
-      padding: 20px 0;
+      padding: 30px 0;
       border-bottom: 3px solid transparent;
       transition: all .3s ease;
   } 
@@ -111,15 +111,17 @@ body {
       padding: 10px;
       
   }
+  .item > ul > li{
+    padding: 10px;
+  }
   .mega-menu h3 {color: #e3deda}
   
   .mega-menu .container {
       display:inline;
-      padding: 10px;
+      padding: 1px;
   }
   .mega-menu .item {
-    flex-grow: 1;
-      margin: 0 10px;
+    flex-grow: 2;
     font-size: medium;
   }
   .mega-menu .item img {
@@ -129,7 +131,8 @@ body {
     border-bottom: 1px solid rgb(78, 78, 78);
     color: #4ea3d8;
     display:inline;
-    padding: 1px 0;
+    
+    
   }
   .mega-menu a:hover {color: #2d6a91;}
   
@@ -137,6 +140,7 @@ body {
   .dropdown {
     position:relative;
     text-indent: 0%;
+    padding: 2px;
   }
   
   .dropdown:hover .mega-menu {
